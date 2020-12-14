@@ -1,0 +1,64 @@
+.top {
+    height: 40vh;
+    background-color: cyan;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .budget {
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  
+  .title {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+  
+  .budget_value {
+    font-weight: 300;
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+  }
+  
+  .income,
+  .expense {
+    padding: 6px;
+    text-transform: uppercase;
+  }
+  
+  .income {
+    margin-bottom: 10px;
+    /* background-color: #44a74b; */
+  }
+  
+  .expense {
+    margin-bottom: 25px;
+    /* background-color: #f5493b; */
+  }
+  
+  .income_text,
+  .expense_text {
+    float: left;
+    font-size: 13px;
+    color: #444;
+    margin-top: 2px;
+  }
+  
+  .income_value,
+  .expense_value {
+    letter-spacing: 1px;
+    float: right;
+  }
+
+  

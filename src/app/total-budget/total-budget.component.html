@@ -1,0 +1,31 @@
+<div class="top-bar">
+<!-- As a heading -->
+<nav class="navbar navbar-light bg-light d-flex justify-content-center">
+  <h1 class="navbar-brand mb-0 ">My Budget Calculator</h1>
+</nav>
+</div>
+<div class="top">
+    <div class="budget">
+      <div class="title">
+        Total amount: {{totalBudget}}
+      </div>
+
+      <div class="income bg-success clearfix">
+        <div class="income_text">Income: &nbsp;</div>
+        <div class="right">
+          <div class="income_value">+ {{totalSavings}}</div>
+        </div>
+      </div>
+
+      <div class="expense bg-danger clearfix">
+        <div class="expense_text">Expense: &nbsp;</div>
+        <div class="right clearfix">
+          <div class="expense_value">- {{totalExpenses}}</div>
+        </div>
+      </div>
+
+      <app-new-entry></app-new-entry>
+      
+      
+    </div>
+  </div>
